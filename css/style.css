@@ -1,0 +1,44 @@
+/* /// */
+.profile_pic{
+    width: 40%;
+    vertical-align: middle;
+    min-width:120px;
+    max-width: 180px;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: 0 0 15px black;
+}
+/* .robot_pic{
+    width:50%;
+    height: 40vh;
+
+} */
+.social_links:hover{
+    box-shadow: 0 0 10px rgb(223, 78, 78);
+    border-radius: 50px ;
+    margin:4px 0;
+    transform: scale(1.2);
+}
+.navbar-dark{
+    background-color: black;
+}
+nav a{
+    margin: 0 15px;
+    padding: 2px;
+    color: aliceblue;
+
+}
+footer #footerNav a{
+    text-align: center;
+   margin: 0 2vw;
+   color: aliceblue;
+   text-decoration: none;
+}
+#footermedias a{
+    margin: 0 2px;
+}
+#footermedias a img:hover{
+   box-shadow: 0 0 5px rgb(238, 99, 99);
+   margin: 0 2px;
+   transform: scale(1.2);  
+}
